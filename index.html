@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netrou's Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Netrou's Snake</h1> <!-- Titre du jeu -->
+        <button id="start">Démarrer le jeu</button>
+    </div>
+    <div id="game" style="display:none;">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="score">Score: 0</div>
+    </div>
+    <div id="endMenu" style="display:none;">
+        <h1 id="endMessage"></h1>
+        <button id="restart">Recommencer</button>
+        <button id="exit">Quitter</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
